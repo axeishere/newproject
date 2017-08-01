@@ -1,5 +1,6 @@
 # Page settings
 baseurl = "localhost:1313"
+publishDir = "docs"
 title = "wandercue"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
