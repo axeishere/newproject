@@ -1,0 +1,279 @@
+# Page settings
+baseurl = "localhost:1313"
+title = "wandercue"
+languageCode = "en-us"
+theme = "hugo-elate-theme"
+
+[params]
+  
+  custom_css = ["css/custom1.css", "css/custom2.css"]
+
+  # Meta
+  author = ""
+  description = ""
+  email = ""
+  # Navigation
+  [params.navigation]
+    brand = "Wandercue"
+    home = "Home"
+    work = "Cues"
+    testimonials = "Testimonials"
+    services = "Services"
+    about = "About"
+    contact = "Contact"
+
+    # You can add custom links before or after the default links
+    # Assign a weight to define the order
+    
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "External link"
+    #  weight = 10
+  
+  # Hero section
+  [params.hero]
+    title = "Live an experience."
+    subtitle = 'The purpose of life, after all, is to live it,<br> to taste the experience to the utmost, to reach out eagerly and without fear for newer and richer experience.</a><br> Elenor Roosevelt'
+ 
+  # Intro section
+  # Available icons: http://simplelineicons.com/
+  [params.intro]
+
+  [[params.intro.item]]
+    title = "Explore"
+    description = "Search our extensive collection of itineraries, curated by our seasoned travelers"
+   url="#"
+   button="Find now"
+   icon = "icon-magnifier"
+    img = "img_7.jpg"
+
+  [[params.intro.item]]
+    title = "Book"
+    description = "Found your your idea of a perfect vacation. Click book now and pay securely."
+    url = "#"
+    button = "Book now"
+    icon = "icon-globe-alt"
+    img = "img_8.jpg"
+
+  [[params.intro.item]]
+    title = "Travel"
+    description = "You're all set. We take care everthing for you. All you need to do is check in and enjoy."
+    url = "#"
+    button = "Why us?"
+    icon = "icon-plane"
+    img = "img_10.jpg"
+
+  [params.intro.video]
+    enable = true
+    title = "Watch the video"
+    icon = "icon-play2"
+    url = "https://www.youtube.com/watch?v=NxcHPgoelXo"
+
+
+  # Work section
+  [params.work]
+    enable = true
+    title = "Cues"
+    description = "A few of our featured Cues."
+    footertext = ''
+
+    [[params.work.row]]
+      img = "work_1.jpg"
+      alt = "Kerala"
+      title = "Kerala"
+      subtitle = "Gods own country"
+
+    [[params.work.row]]
+      img = "work_2.jpg"
+      alt = "California"
+      title = "California"
+      subtitle = "5 day Hollywood tour"
+
+    [[params.work.row]]
+      img = "work_3.jpg"
+      alt = "Cuba"
+      title = "Cuba"
+      subtitle = "Cuban fever"
+
+    [[params.work.row]]
+      img = "work_4.jpg"
+      alt = "Florida"
+      title = "Florida"
+      subtitle = "Disneyworld and more"
+
+    [[params.work.row]]
+      img = "work_5.jpg"
+      alt = "Italy"
+      title = "Italy"
+      subtitle = "Petrolhead paradise"
+
+    [[params.work.row]]
+      img = "work_6.jpg"
+      alt = "Bali"
+      title = "Bali"
+      subtitle = "Surfs Up"
+
+  # Testimonials section
+  [params.testimonials]
+    enable = true
+    title = "Testimonials"
+    description = "Here is what our satisfied customers have to say about us."
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;A perfectly tailored and well-crafted holiday planned by Wandercue. My friends and I travelled to Santiago and Antarctica, obviously a once in a lifetime experience! We were taken care of at every step and it was absolutely hassle-free. Good job, guys!.&rdquo;"
+      person = 'Vasantkumar Dhang  <span class="subtext">Antartica</span>'
+      img = "person1.jpg"
+      alt = "Person1"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;We opted for Wandercue Plus for our trip to Indonesia, and we were certainly taken aback by the kind of service we received. My friends and I were having a hard time renting a kayak, being tourists with no knowledge of the local language. So we called Wandercue to find out if they could help, and in almost no time, we had a boat ready for us at the nearby pier! I’m glad we went with Wandercue Plus! Way to go! .&rdquo;"
+      person = 'Swapna and Janani<span class="subtext">Indonesia</span>'
+      img = "person2.jpg"
+      alt = "Person2"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;My wife and I took a  trip to the Alps a few months ago, Tripcue designed my trip so beautifully. Our routes were perfectly planned and designed, we even rented a few cycles on our way. It was a spectacular experience, Wandercue was very supportive, we were never left unattended, since it was a new experience for us. All in all it was an experience we can never forget, I would pass on the stories of this trip to my children for sure. Not to forget the little gestures we received from Wandercue, it really meant a lot! My wife is really in love with you guys, good going!&rdquo;"
+      person = 'Tanja Heffner<span class="subtext">Switzerland</span>'
+      img = "person3.jpg"
+      alt = "Person3"
+    
+
+
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "Services"
+    description = "Wandercues main task is provide one of a kind experiences to our customers.To that end there is no service that we do not offer. That being said here our a few of our services. "
+
+    [[params.services.item]]
+      title = "Accommodation"
+      description = "From luxury hotels to home stays, we arrange accommodation  for every budget"
+      icon = "icon-home"
+
+    [[params.services.item]]
+      title = "Transportaion"
+      description = "Want a cab to pick you up at the airport? Want to rent a Ferrai to drive around town? What ever your needs may be we got you covered."
+      icon = "icon-rocket"
+    [[params.services.item]]
+      title = "Food"
+      description = " A table at a michelin star restaurant or a home cooked meal from an Italian grand mother we can make anything happen."
+      icon = "icon-cup"
+
+      [[params.services.item]]
+      title = "Concierge"
+      description = "Lost in a new city? Cant decide which night club to hit ? Call us and talk to seasoned curators who know whats hot and whats not. "      
+      icon = "icon-magic-wand"
+
+  # About section
+  [params.about]
+    enable = true
+    title = "About"
+    description = "Meet the people who make the magic happen."
+
+    [[params.about.item]]
+      name = "Shraddha Kadel"
+      position = "CEO"
+      description = "Is the original visionary or wandercue.After travlling the world and making her mark on every continent she decided to help others too squench thier wanderlust."
+      img = "person1.jpg"
+      alt = "Person1"
+      social = [
+        ["icon-instagram", "#"],
+        ["icon-facebook", "#"],
+        ["icon-linkedin", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Ashwin Tanikashryel"
+      position = "Business Development"
+      description = "After spearheading teams in major events and advertising agencies he decided to apply his experience on his passion project. "
+      img = "person2.jpg"
+      alt = "Person2"
+      social = [
+        ["icon-instagram", "#"],
+        ["icon-facebook", "#"],
+        ["icon-linkedin", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Adithya Ramshankar"
+      position = "Product  Designer"
+      description = "A computer nerd with an eye for design. Not much else is known about him."
+      img = "person3.jpg"
+      alt = "Person3"
+      social = [
+        ["icon-instagram", "#"],
+        ["icon-facebook", "#"],
+        ["icon-github", "#"]
+      ]      
+
+  # Counters section
+  [params.counters]
+    enable = true
+    title = "Stats"
+    background = "full_image_1.jpg"
+
+    [[params.counters.item]]
+      description = "Countries"
+      icon = "icon-map"
+      from = 0
+      to = 89
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Cruises"
+      icon = "icon-anchor"
+      from = 0
+      to = 50
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Destinations"
+      icon = "icon-directions"
+      from = 0
+      to = 1302
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Happy clients"
+      icon = "icon-people"
+      from = 0
+      to = 69
+      interval = 50
+      speed = 5000
+
+  # Contact section
+  [params.contact]
+    enable = true
+    map = true
+    title = "Get in touch"
+    description = "Are you a traveller? Let’s inspire the world to travel, together."
+    
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "70,11th B Main,5th Block Jayanagar, Bangalore- 560041, India"],
+        ["icon-phone", "+91 9884344333"],
+        ["icon-envelope", "contact@wandercue.com"],
+        ["icon-globe", '<a href="http://wandercue.com/" target="_blank">wandercue.com</a>']
+      ]
+
+    name = "Name"
+    email = "Email"
+    phone = "Phone"
+    message = "Message"
+    button = "Send message"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = '&copy; Wandercue. All Rights Reserved. 2017.'
